@@ -4043,13 +4043,10 @@ condition](#safe-assignment-in-condition).
 ## Date & Time
 
   * <a name="time-now"></a>
-    Prefer `Time.now` over `Time.new` when retrieving the current system time.
+    ให้ความสำคัญกับ `Time.now` มากกว่า `Time.new` เมื่อเรียกใช้เวลาปัจจุบัน.
     <sup>[[link](#time-now)]</sup>
-
   * <a name="no-datetime"></a>
-    Don't use `DateTime` unless you need to account for historical calendar
-    reform—and if you do, explicitly specify the `start` argument to
-    clearly state your intentions.
+    ห้ามใช้ `DateTime` เว้นแต่คุณต้องการปรับปรุงบัญชีย้อนหลังในปฏิทิน และถ้าคุณทำการระบุอาร์กิวเมนต์เริ่มต้นสถานะที่ระบุอย่างชัดเจน.
     <sup>[[link](#no-datetime)]</sup>
 
     ```ruby
