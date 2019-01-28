@@ -6,18 +6,14 @@
 มีสิ่งหนึ่งที่ทำให้ผมรู้สึกรำคาญตลอดเวลาในฐานะ นักพัฒนาภาษา Ruby&mdash;Python
 นั้นก็คือการมีเอกสารอ้างอิงสำหรับการเขียนโปรแกรมที่ดี ([PEP-8][]) และการที่เราไม่เคยมีคู่มือที่เป็นทางการ
 หรือ เอกสารการเขียนโค้ด Ruby และ แนวทางที่ดีในการเขียนโค้ด
-One thing has always bothered me as a Ruby developer&mdash;Python developers
-have a great programming style reference ([PEP-8][]) and we never got an
-official guide, documenting Ruby coding style and best practices. And I do
-believe that style matters. I also believe that a great hacker community, such
-as Ruby has, should be quite capable of producing this coveted document.
+สิ่งหนึ่งที่ทำให้ฉันรำคาญในฐานะนักพัฒนา Ruby - นักพัฒนา Python มีรูปแบบการเขียนโปรแกรมที่ยอดเยี่ยม (PEP-8) และเราไม่เคยมีคู่มืออย่างเป็นทางการบันทึกรูปแบบการเขียนโค้ด Ruby และแนวทางปฏิบัติที่ดีที่สุด และฉันเชื่อว่าสไตล์นั้นสำคัญ ฉันยังเชื่อว่าชุมชนแฮ็กเกอร์ที่ยอดเยี่ยมเช่น Ruby มีควรจะสามารถผลิตเอกสารปรารถนานี้ได้.
 
-This guide started its life as our internal company Ruby coding guidelines
-(written by yours truly). At some point I decided that the work I was doing
-might be interesting to members of the Ruby community in general and that the
-world had little need for another internal company guideline. But the world
-could certainly benefit from a community-driven and community-sanctioned set of
-practices, idioms and style prescriptions for Ruby programming.
+คู่มือนี้เริ่มต้นชีวิตด้วยแนวทางการเขียนโค้ด Ruby ภายใน บริษัท ของเรา
+(เขียนโดยคุณจริง ๆ ) เมื่อถึงจุดหนึ่งฉันตัดสินใจว่างานที่ฉันทำ
+อาจน่าสนใจสำหรับสมาชิกของชุมชน Ruby ทั่วไปและ
+โลกมีความต้องการเพียงเล็กน้อยสำหรับแนวทางภายใน บริษัท อื่น แต่โลกทั้งใบ
+สามารถได้รับประโยชน์อย่างแน่นอนจากชุมชนที่ขับเคลื่อนด้วยชุมชนและได้รับการอนุมัติจากชุมชน
+แบบฝึกหัดสำนวนและการกำหนดสไตล์สำหรับการเขียนโปรแกรมร Ruby.
 
 Since the inception of the guide I've received a lot of feedback from members of
 the exceptional Ruby community around the world. Thanks for all the suggestions
@@ -4049,7 +4045,7 @@ condition](#safe-assignment-in-condition).
   * <a name="no-datetime"></a>
     Don't use `DateTime` unless you need to account for historical calendar
     reform—and if you do, explicitly specify the `start` argument to
-    clearly state your intentions.
+    clearly state your intentions. 
     <sup>[[link](#no-datetime)]</sup>
 
     ```ruby
